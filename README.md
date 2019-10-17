@@ -33,11 +33,11 @@
             return(-1);
           }
 
-        while(fgets(temp, 50, fp) != NULL)	// takes 50 chahrcters from file and stores it in temp and runs till end of file
+        while(fgets(temp, 50, fp) != NULL)	takes 50 chahrcters from file and stores it in temp and runs till end of file
           {
             	x=strstr(temp, cmp);
-		if(x!= NULL) 		/*searches for string str in temp, if found it returns pointer to 									 *the first instance of the word found else it returns NULL 
-              {			         */			
+		if(x!= NULL) 			searches for string str in temp, if found it returns pointer to 									the first instance of the word found else it returns NULL 
+              {			         			
                 printf("%s", temp);
                 find_result++;
               }
